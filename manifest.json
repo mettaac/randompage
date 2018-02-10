@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "Random Page Button",
+  "version": "1.0",
+
+  "description": "Redirect to Random Page.",
+
+
+"permissions": [
+    "tabs"
+  ],
+
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Click Me!",
+    "default_popup": "popup/choose_mood.html",
+    "default_icon": {
+     "16": "icons/pizza.png",
+     "32": "icons/pizza.png"
+   }
+  }
+}
